@@ -151,3 +151,27 @@ Notas:
 Una vez terminada la instalación, ejecutamos nuevamente el comando xcode-select --install en nuestra terminal y nos debería imprimir el siguiente mensaje:
 
 ===== errormacOS1.jpg
+
+
+
+
+
+
+
+
+----------------------------------------------COMPILACION Y EJECUCION----------------------------------------------
+
+desde terminal en la raiz de esta carpeta  ejecutar el comando:
+
+c++ -o <nombre de ejecutable> tarea01.cpp
+
+con esto compilaremos y se nos generara un archivo con nombre de <nombre de ejecutable>, despues para ejecutar usar el comando:
+
+./<nombre de ejecutable>
+
+con esto se iniciara el programa. (NOTA en caso de WINDOWS usar g++ en lugar de c++)
+
+
+referencias:
+
+Curso de C++ Basico en Platzi https://platzi.com/cursos/c-plus-plus/
